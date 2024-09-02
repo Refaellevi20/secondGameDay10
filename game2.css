@@ -1,0 +1,107 @@
+.timer {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(206, 88, 221);
+    text-align: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin:  0;
+    margin: auto;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #ccc;
+    background-color: #f0f0f0;
+    font-size: 1.5em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+td:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+
+
+td:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+h1{
+    text-align: center;
+   /* background-color: aliceblue; */
+   color: #e0e0e0;
+   text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+}
+
+
+
+
+  body {
+    text-align: center;
+    font-family: system-ui;
+    background-image: url("image.jpg");
+    /* background: linear-gradient(to bottom, #87CEEB 0%, #FFFFFF 100%); */
+}
+
+
+.diff {
+color: aqua;
+}
+#difficulty{
+    color: red;
+    background-color: #576778;
+}
+
+
+
+.restart button {
+    display: inline-block;
+    padding: 15px 30px; 
+    /* font-size: 1.5em; */
+    color: white;
+    background-color: #ff4500; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.6); 
+}
+
+.restart button:hover {
+    background-color: #ff6347; 
+    transform: scale(1.05); 
+}
+
+#errors{
+     text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+}

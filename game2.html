@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="game2.css">
+    <title>nightmare</title>
+</head>
+<body>
+    <h1>Number Game</h1>
+    <h2 id="errors">0</h2>
+    <div class="hero"></div>
+
+    <!-- <div class="board"></div>
+    <div class="controls">
+        <button onclick="onRestart()">Restart</button>
+        <select onchange="onChangeDifficulty(this)">
+            <option value="9">Easy (3x3)</option>
+            <option value="16">Medium (4x4)</option>
+            <option value="25">Hard (5x5)</option>
+        </select>
+        <div class="timer">Time: 0 : 000</div>
+    </div> -->
+
+    <div>
+        <label class="diff" for="difficulty">Select Difficulty:</label>
+        <select id="difficulty">
+            <option value="9">3x3</option>
+            <option value="16">4x4</option>
+            <option value="25">5x5</option>
+            <option value="36">6x6</option>
+            <option value="49">7x7</option>
+        </select>
+        <div>
+            <img class="game-img" src="">
+        </div>
+        <button class="btn" onclick="startGame()">Start Game</button>
+    </div>
+    <hr>
+    <table class="numbersRandom"></table>
+    <div class="timer" id="timer">Timer: 00 : 000</div>
+    <br>
+    <div  class="restart"><button onclick="restartGame()">Restart</button></div>
+    <script src="game2.js"></script>
+</body>
+</html>
+
+
+
